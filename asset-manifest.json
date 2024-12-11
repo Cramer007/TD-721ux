@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TD-721ux/static/css/main.f855e6bc.css",
+    "main.js": "/TD-721ux/static/js/main.cd85e1d0.js",
+    "static/js/453.ed3810f9.chunk.js": "/TD-721ux/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/TD-721ux/index.html",
+    "main.f855e6bc.css.map": "/TD-721ux/static/css/main.f855e6bc.css.map",
+    "main.cd85e1d0.js.map": "/TD-721ux/static/js/main.cd85e1d0.js.map",
+    "453.ed3810f9.chunk.js.map": "/TD-721ux/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.cd85e1d0.js"
+  ]
+}
