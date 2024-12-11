@@ -15,6 +15,7 @@ function App() {
       <header className="App-header">
          <nav>
            <ul>
+            
              <li>
                <Link to="/" style={{ color: "#ff6347" }}>Home</Link>
             </li>
