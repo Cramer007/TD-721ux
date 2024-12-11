@@ -7,6 +7,7 @@ import TokenInfo from "./TokenInfo";//importe de token info
 import ErrorPage from './ErrorPage'; // Import de la page d'erreur
 import FakeNefturians from './FakeNefturians';//import nefturian
 import FakeNefturiansTokens from './FakeNefturiansTokens';
+import FakeMeebits from './FakeMeebits';
 
 function App() {
   return (
@@ -15,16 +16,19 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" style={{ color: "#ff6347" }}>Home</Link>
             </li>
             <li>
-              <Link to="/chain-info">Chain Info</Link>
+              <Link to="/chain-info" style={{ color: "#ff6347" }}>Chain Info</Link>
             </li>
             <li>
-              <Link to="/fakeBayc">Fake BAYC</Link>
+              <Link to="/fakeBayc" style={{ color: "#ff6347" }}>Fake BAYC</Link>
             </li>
             <li>
-              <Link to="/fakeNefturians">Fake Nefturians</Link>
+              <Link to="/fakeNefturians" style={{ color: "#ff6347" }}>Fake Nefturians</Link>
+            </li>
+            <li>
+              <Link to="/fakeMeebits" style={{ color: "#ff6347" }}>Fake Meebits</Link>
             </li>
           </ul>
         </nav>
@@ -37,6 +41,7 @@ function App() {
           <Route path="/fakeBayc/:tokenId" element={<TokenInfo />} />
           <Route path="/fakeNefturians" element={<FakeNefturians />} />
           <Route path="/fakeNefturians/:userAddress" element={<FakeNefturiansTokens />} />
+          <Route path="/fakeMeebits" element={<FakeMeebits />} />
           <Route path="/error" element={<ErrorPage />} /> {/* Route pour la page d'erreur */}
         </Routes>
       </header>
